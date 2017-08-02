@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="Fragments.NoviProizvodacFragment">
+
+
+    <ImageView
+        android:id="@+id/slika_dodaj_proi"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/ic_info_outline"
+        />
+
+
+    <EditText
+        android:id="@+id/novi_proizvodac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/slika_dodaj_proi"
+        android:hint="@string/ime_proizvozvodaca"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.crespo.vehicleexpenses.Activity.UpdateVehicleActivity">
+
+
+            <RelativeLayout
+                android:id="@+id/rel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/icon_time"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="30dp"
+                    app:srcCompat="@drawable/voz_vrsta" />
+
+                <Spinner
+                    android:id="@+id/spinner_tip_vozila"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/icon_time"
+                    android:layout_centerVertical="true"/>
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignStart="@+id/spinner_tip_vozila"
+                    android:layout_below="@+id/spinner_tip_vozila"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/divider2" />
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/relProizvodac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                >
+
+                <ImageView
+                    android:id="@+id/icon_timeProducer"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/ic_help_outline_black_24dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_alignBottom="@+id/spinner_proizvodac"
+                    android:layout_alignParentStart="true" />
+
+
+                <Spinner
+                    android:id="@+id/spinner_proizvodac"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/icon_timeProducer"
+                    android:layout_centerVertical="true">
+
+                </Spinner>
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider2"
+                    android:layout_below="@+id/spinner_proizvodac"
+                    android:layout_alignStart="@+id/spinner_proizvodac"
+                    android:layout_marginTop="10dp"/>
+
+
+                <ImageView
+                    android:id="@+id/icon_spinner_proizvodac"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_toRightOf="@+id/spinner_proizvodac"
+                    app:srcCompat="@drawable/ic_add_box_black_24dp"
+                    android:layout_marginLeft="1dp"/>
+
+            </RelativeLayout>
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/icon_time2"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/ic_help_outline_black_24dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_centerVertical="true"/>
+
+
+
+                <EditText
+                    android:id="@+id/tip_marke_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/tip_unutar_marke_vozila"
+                    android:layout_toRightOf="@+id/icon_time2"
+                    android:layout_centerVertical="true"
+
+                    />
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/icon_timeNaziv"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/ic_help_outline_black_24dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_centerVertical="true"/>
+
+
+
+                <EditText
+                    android:id="@+id/naziv_vozila_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/naziv_vozila"
+                    android:layout_toRightOf="@+id/icon_timeNaziv"
+                    android:layout_centerVertical="true"
+
+                    />
+
+
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/relGorivoVozila"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                >
+
+                <ImageView
+                    android:id="@+id/icon_gorivo_vozila"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/gas_station"
+                    android:layout_marginRight="30dp"
+                    android:layout_alignBottom="@+id/spinner_gorivo_vozila"
+                    android:layout_alignParentStart="true" />
+
+
+                <Spinner
+                    android:id="@+id/spinner_gorivo_vozila"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/icon_gorivo_vozila"
+                    android:layout_centerVertical="true">
+
+                </Spinner>
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider2"
+                    android:layout_below="@+id/spinner_gorivo_vozila"
+                    android:layout_alignStart="@+id/spinner_gorivo_vozila"
+                    android:layout_marginTop="10dp"/>
+
+
+                <ImageView
+                    android:id="@+id/icon_spinner_gorivo_vozila"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_toRightOf="@+id/spinner_gorivo_vozila"
+                    app:srcCompat="@drawable/ic_add_box_black_24dp"
+                    android:layout_marginLeft="1dp"/>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/icon_Spremnik"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/ic_help_outline_black_24dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_centerVertical="true"/>
+
+
+
+                <EditText
+                    android:id="@+id/spremnik_vozila_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/kapacitet_spremnika"
+                    android:inputType="number"
+                    android:layout_toRightOf="@+id/icon_Spremnik"
+                    android:layout_centerVertical="true" />
+
+
+            </RelativeLayout>
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/icon_Reg"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/ic_assignment_black_24dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_centerVertical="true"/>
+
+
+
+                <EditText
+                    android:id="@+id/reg_vozila_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/registracija"
+                    android:layout_toRightOf="@+id/icon_Reg"
+                    android:layout_centerVertical="true" />
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/icon_Sas"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/ic_assignment_black_24dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_centerVertical="true"/>
+
+
+
+                <EditText
+                    android:id="@+id/sas_vozila_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/broj_sasije"
+                    android:layout_toRightOf="@+id/icon_Sas"
+                    android:layout_centerVertical="true" />
+
+
+            </RelativeLayout>
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin">
+
+                <ImageView
+                    android:id="@+id/icon_Godina"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/ic_help_outline_black_24dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_centerVertical="true"/>
+
+
+
+                <EditText
+                    android:id="@+id/god_vozila_ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/godina"
+                    android:inputType="number"
+                    android:layout_toRightOf="@+id/icon_Godina"
+                    android:layout_centerVertical="true" />
+
+
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/rel100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                >
+
+                <ImageView
+                    android:id="@+id/icon_time500"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/ic_note_black_24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    />
+
+                <EditText
+                    android:id="@+id/biljeske_vozila_ed"
+                    android:layout_width="match_parent"
+                    android:hint="@string/notes_title"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/icon_time500"/>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

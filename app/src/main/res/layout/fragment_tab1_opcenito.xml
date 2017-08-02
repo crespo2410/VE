@@ -1,0 +1,154 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.Tab1Opcenito"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+
+    <TextView
+        android:id="@+id/brojUkupnihUsluga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 usluge u 6 dana"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/troskovi"
+                android:textStyle="bold"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_above="@+id/row1"
+            android:background="@color/divider2"
+            android:layout_marginRight="40dp"/>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+
+
+             <TextView
+                 android:id="@+id/textView7"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:text="@string/ukupno" />
+
+             <TextView
+                 android:id="@+id/textViewUkupnoOpcenito"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_marginLeft="5dp"
+                 android:layout_toRightOf="@+id/textView7"
+                 android:text="23,000 HRK"
+                 android:textStyle="bold" />
+
+
+             <TextView
+                 android:id="@+id/textView6"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_below="@+id/textView7"
+                 android:layout_alignStart="@+id/textView7"
+                 android:text="@string/dnevno" />
+
+
+            <TextView
+                android:id="@+id/textViewDnevnoOpcenito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@id/textView6"
+                android:layout_below="@id/textViewUkupnoOpcenito"
+                android:layout_marginLeft="5dp"
+                android:text="3,8233 HRK"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textViewKm_Milja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_below="@id/textView6"
+                android:layout_alignStart="@id/textView6"
+                android:text="@string/po_jed_udaljenosti" />
+
+
+            <TextView
+                android:id="@+id/textViewkmOpcenito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_toRightOf="@id/textViewKm_Milja"
+                android:layout_below="@id/textViewDnevnoOpcenito"
+                android:layout_marginLeft="5dp"
+                android:text="0,027 HRK"
+                android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/row3"
+            android:background="@color/divider2"
+            android:layout_marginRight="40dp"/>
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/grafikoni"/>
+
+
+
+
+            <Spinner
+                android:id="@+id/spinner_grafikon_opcenito"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginRight="40dp"
+                android:layout_below="@+id/textView0">
+
+            </Spinner>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/divider2"
+            android:layout_below="@+id/row5"
+            android:layout_marginRight="40dp"/>
+
+
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

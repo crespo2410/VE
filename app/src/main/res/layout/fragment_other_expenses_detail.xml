@@ -1,0 +1,257 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="Fragments.OtherExpensesDetailFragment"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/date_time_other_detail_title"
+                android:textColor="@color/primary_text5"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/lin_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp">
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/ic_date_range_black_24dp" />
+
+
+            <TextView
+                android:id="@+id/idDetailOtherExpDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28/03/2017"
+                android:textColor="@color/primary_text5"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_marginLeft="10dp"/>
+
+
+
+            <TextView
+                android:id="@+id/idDetailOtherExpTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- 09:41"
+                android:textColor="@color/primary_text5"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/divider5"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginStart="50dp"
+                android:layout_alignParentLeft="true">
+
+
+                <TextView
+                    android:id="@+id/stanje_prijedeno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primary_text5"
+                    android:text="@string/stanje_kilometara_km" />
+
+
+                <TextView
+                    android:id="@+id/DetailOtherExpKm_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="390 km"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="@color/primary_text5"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginEnd="50dp"
+                android:layout_alignParentRight="true">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primary_text2"
+                    android:text="@string/ukupni_trosak" />
+
+
+                <TextView
+                    android:id="@+id/DetailOtherExpTrosak_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primary_text2"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:text="55,000 HRK"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/divider5"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/naziv_obavitelja_usuluge_title"
+                android:textColor="@color/primary_text5"/>
+
+
+
+            <TextView
+                android:id="@+id/DetailOtherExpNazivObrtika_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Autoservis Krešo"
+                android:textColor="@color/primary_text5"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/divider5"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/detalji_troskova_title"
+                android:textColor="@color/primary_text5"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerDetailOstaliTroskovi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/divider5"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/notes_title"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text2"/>
+
+
+        <TextView
+            android:id="@+id/DetailOtheExpBiljeske_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="Bilješke"
+            android:textColor="@color/primary_text5"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

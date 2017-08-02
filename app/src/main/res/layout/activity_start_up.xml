@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.crespo.vehicleexpenses.Activity.StartUpActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/applogo4"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:src="@drawable/applogo"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        />
+
+
+
+
+      <Button
+          android:id="@+id/buttonSignUp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+          android:layout_marginTop="30dp"
+          android:text="@string/registriraj"
+          android:background="#DB674A"
+          android:textColor="#FFFFFF" />
+
+
+
+      <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="#DB674A"
+        android:textColor="#FFFFFF"
+        android:text="@string/prijavi_se" />
+
+
+
+
+
+      <TextView
+        android:id="@+id/textViewGuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/nastavi_kao_gost"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+</ScrollView>

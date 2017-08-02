@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="Fragments.NoviNazivOstalogTroskaFragment"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/slika_dodaj_razlog"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/ic_info_outline"
+            />
+
+
+        <EditText
+            android:id="@+id/novo_ime_usluge2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/slika_dodaj_razlog"
+            android:hint="@string/novo_ime_troska_title" />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/slika_dodaj_razlog5"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/ic_info_outline"
+            />
+
+
+        <EditText
+            android:id="@+id/nova_cijena_usluge2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/slika_dodaj_razlog"
+            android:hint="@string/cijena"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

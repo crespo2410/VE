@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.NovoGorivoFragment"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/slika_dodaj_razlog"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_info_outline"
+        />
+
+
+    <EditText
+        android:id="@+id/ed_dodaj_razlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/slika_dodaj_razlog"
+        android:hint="@string/ime"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp" />
+
+    </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/slika_dodaj_podvrstu"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_info_outline"
+            />
+
+
+        <Spinner
+            android:id="@+id/spinner_dodaj_povrstu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/slika_dodaj_podvrstu"
+            android:hint="Ime"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/spinner_dodaj_povrstu"
+            android:layout_alignStart="@+id/spinner_dodaj_povrstu"
+            android:layout_marginTop="10dp"
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

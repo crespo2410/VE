@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.crespo.vehicleexpenses">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.androidtutorialpoint.mymapsappsdirection.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.StartUpActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Activity.LogInActivity" />
+        <activity android:name=".Activity.RegisterActivity" />
+        <activity
+            android:name=".Activity.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.HistoryActivity" />
+        <activity android:name=".Activity.StatisticActivity"
+            android:label=""/>
+        <activity
+            android:name=".Activity.RefuelingExpensesActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".Activity.ServiceExpencesActivity"
+            android:launchMode="singleTop" />
+        <activity android:name=".Activity.OtherExpensesActivity" />
+        <activity android:name=".Activity.ReminderActivity" />
+        <activity android:name=".Activity.AboutActivity" />
+        <activity android:name=".Activity.ContactActivity" />
+        <activity android:name=".Activity.VehicleActivity" />
+        <activity android:name=".Activity.TranslateActivity" />
+        <activity android:name=".Activity.UpdateRefuelingExpense" />
+        <activity
+            android:name=".Activity.RefuelingExpensesDetail"
+            android:parentActivityName=".Activity.RefuelingExpensesActivity" />
+        <activity
+            android:name=".Activity.SettingsActivity"
+            android:label="@string/title_activity_settings">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.crespo.vehicleexpenses.Activity.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.ServiceExpensesDetail"
+            android:parentActivityName=".Activity.ServiceExpencesActivity" />
+        <activity android:name=".Activity.UpdateServiceExpense" />
+        <activity
+            android:name=".Activity.OtherExpensesDetail"
+            android:parentActivityName=".Activity.OtherExpensesActivity" />
+        <activity android:name=".Activity.UpdateOtherExpenses" />
+        <activity android:name=".Activity.CreateUpdateAlertActivity" />
+        <activity android:name=".Activity.UpdateReminder" />
+
+        <receiver android:name="helper.AlarmSetter">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="helper.AlarmReceiver"
+            android:enabled="true" />
+
+        <service
+            android:name="helper.AlarmService"
+            android:enabled="true" />
+
+        <activity android:name=".Activity.Chart.PieChartService" />
+        <activity android:name=".Activity.Chart.LineChartService" />
+        <activity android:name=".Activity.Chart.LineCharOtherExp" />
+        <activity android:name=".Activity.Chart.PieCharOtherExp" />
+        <activity android:name=".Activity.Chart.LineChartGas" />
+        <activity android:name=".Activity.Chart.Line2ChartGas" />
+        <activity android:name=".Activity.Chart.Pie2ChartGas" />
+        <activity android:name=".Activity.Chart.Pie4ChartGas" />
+        <activity android:name=".Activity.Chart.PieChartOpcenito" />
+        <activity android:name=".Activity.Chart.LineChartOpcenito" />
+        <activity android:name=".Activity.HelpActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Activity.MapsActivity"
+            android:label="@string/title_activity_maps">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.crespo.vehicleexpenses.Activity.HelpActivity" />
+        </activity>
+        <activity android:name=".Activity.VehicleDetailActivity"
+            android:parentActivityName=".Activity.VehicleActivity"/>
+        <activity android:name=".Activity.UpdateVehicleActivity"></activity>
+    </application>
+
+</manifest>

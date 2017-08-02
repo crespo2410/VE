@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBlue">#64B5F6 </color>
+    <color name="primary_dark3">#1976D2</color>
+    <color name="colorYellow">#E6EE9C</color>
+    <color name="colorGreen">#8BC34A</color>
+    <color name="colorOrange">#FF7043</color>
+    <color name="colorPurple">#7B1FA2</color>
+
+
+
+    //za tocenje goriva boje
+
+
+    <color name="primary2">#FF9800</color>
+    <color name="primary_dark2">#F57C00</color>
+    <color name="primary_light2">#FFE0B2</color>
+    <color name="accent2">#FF5722</color>
+    <color name="primary_text2">#212121</color>
+    <color name="secondary_text2">#757575</color>
+    <color name="icons2">#212121</color>
+    <color name="divider2">#BDBDBD</color>
+
+
+
+
+    //za servise
+
+        <color name="primary4">#009688</color>
+        <color name="primary_dark4">#00796B</color>
+        <color name="primary_light4">#B2DFDB</color>
+        <color name="accent4">#009688</color>
+        <color name="primary_text4">#212121</color>
+        <color name="secondary_text4">#757575</color>
+        <color name="icons4">#FFFFFF</color>
+        <color name="divider4">#BDBDBD</color>
+
+     //za ostale troškove
+
+        <color name="primary5">#9E9E9E</color>
+        <color name="primary_dark5">#616161</color>
+        <color name="primary_light5">#F5F5F5</color>
+        <color name="accent5">#607D8B</color>
+        <color name="primary_text5">#212121</color>
+        <color name="secondary_text5">#757575</color>
+        <color name="icons5">#212121</color>
+        <color name="divider5">#BDBDBD</color>
+
+
+        <color name="primary6">#2196F3</color>
+        <color name="primary_dark6">#1976D2</color>
+        <color name="primary_light6">#BBDEFB</color>
+        <color name="accent6">#03A9F4</color>
+        <color name="primary_text6">#212121</color>
+        <color name="secondary_text6">#757575</color>
+        <color name="icons6">#FFFFFF</color>
+        <color name="divider6">#BDBDBD</color>
+
+
+
+
+
+</resources>

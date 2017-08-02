@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/idHistoryGroup">
+
+        <item
+            android:id="@+id/nav_vehicle"
+            android:icon="@drawable/ic_airport_shuttle_black_24dp"
+            android:title="@string/vozila" />
+
+
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history"
+            android:title="@string/povijest" />
+
+
+        <item
+            android:id="@+id/nav_stat"
+            android:icon="@drawable/ic_timeline"
+            android:title="@string/izvije_a_statistika" />
+    </group>
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/idInformationGroup">
+
+
+        <item
+            android:id="@+id/nav_gas"
+            android:icon="@drawable/ic_local_gas_station"
+            android:title="@string/tocenje_goriva" />
+
+
+        <item
+            android:id="@+id/nav_ser"
+            android:icon="@drawable/ic_local_taxi"
+            android:title="@string/servisi" />
+
+        <item
+            android:id="@+id/nav_other"
+            android:icon="@drawable/ic_credit_card"
+            android:title="@string/ostali_troskovi" />
+
+
+        <item
+            android:id="@+id/nav_reminder"
+            android:icon="@drawable/ic_access_alarm"
+            android:title="@string/podsjetnici" />
+
+    </group>
+
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/idInformation2">
+
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/postavke" />
+
+
+        <item
+            android:id="@+id/nav_translate"
+            android:icon="@drawable/ic_g_translate"
+            android:title="@string/prijevod" />
+
+    </group>
+
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/idInformationHelp">
+
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="@string/pomoc_na_cesti" />
+
+
+    </group>
+
+
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/idInformationAbout">
+
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contact_mail"
+            android:title="@string/kontaktirati" />
+
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_outline"
+            android:title="@string/o_aplikaciji" />
+
+
+
+    </group>
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/idLogout">
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_account"
+            android:title="@string/odjava" />
+
+    </group>
+
+
+</menu>

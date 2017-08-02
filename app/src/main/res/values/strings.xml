@@ -1,0 +1,478 @@
+<resources>
+    <string name="app_name">VehicleExpenses</string>
+    <string name="registriraj">Registriraj se</string>
+    <string name="prijavi_se">Prijava</string>
+    <string name="nastavi_kao_gost">Nastavi kao gost</string>
+    <string name="kor_ime">Korisničko ime</string>
+    <string name="lozinka">Lozinka</string>
+    <string name="title_activity_home" translatable="false">HomeActivity</string>
+    <string name="info">Informacije</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="action_settings2">Postavke</string>
+    <string name="povijest">Povijest</string>
+    <string name="vozila">Vozila</string>
+    <string name="izvije_a_statistika">Izviješća (statistika)</string>
+    <string name="izvoz_informacija_pdf">Izvoz informacija (pdf)</string>
+    <string name="tocenja_goriva">Točenja goriva</string>
+    <string name="tocenje_goriva">Točenje goriva</string>
+    <string name="servisi">Servisi</string>
+    <string name="ostali_troskovi">Ostali troškovi</string>
+    <string name="podsjetnici">Podsjetnici</string>
+    <string name="routes" translatable="false">Rute</string>
+    <string name="translate">Prijevod</string>
+    <string name="pomoc_na_cesti">Pomoć na cesti</string>
+    <string name="kontaktirati">Kontaktirati</string>
+    <string name="o_aplikaciji">O aplikaciji</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="izradio">Izradio</string>
+    <string name="jmbag_0246046062" translatable="false">JMBAG:0246046062</string>
+    <string name="moje_imePrezime" translatable="false">Krešimir Čućus</string>
+    <string name="verzija">Verzija 1.0.0</string>
+    <string name="poruka">Poruka</string>
+    <string name="subjekt">Subjekt</string>
+    <string name="e_mail">E-mail</string>
+    <string name="ime">Ime</string>
+    <string name="toast_permision">Zabranili ste upotrebu poziva</string>
+    <string name="o_nama">O nama</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="AlertBrisanje">Da li stvarno želite izbrisati?</string>
+    <string name="Pozitivno">Da</string>
+    <string name="Negativno">Ne</string>
+    <string name="novo_gorivo">Novo Gorivo</string>
+    <string name="title_activity_settings" translatable="false">Settings</string>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general" translatable="false">General</string>
+    <string name="pref_title_social_recommendations" translatable="false">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations" translatable="false">Recommendations for people to contact
+        based on your message history
+    </string>
+
+
+
+
+    <!-- Pocetak mojega -->
+
+
+    <string name="pref_title_display_name">Unesite broj za zvanje pomoći</string>
+    <string name="pref_default_number_to_call" translatable="false">1987</string>
+    <string name="pref_default_display_prijevodi">Prijevodi</string>
+    <string name="pref_default_display_pomoc_na_cesti">Pomoć na cesti</string>
+    <string name="pref_default_display_jedinice">Jedinice</string>
+    <string name="pref_default_display_formati">Formati</string>
+
+
+
+    <string name="pref_title_prijevod">Prijevod</string>
+    <string-array name="pref_example_list_titles">
+        <item>Hrvatski</item>
+        <item>Engleski</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+
+    <!-- Example settings for  -->
+
+    <string name="pref_title_km_milje">km/milje</string>
+    <string-array name="pref_km_milje_titles">
+        <item>km (kilometri)</item>
+        <item>Milje (Mi)</item>
+    </string-array>
+    <string-array name="pref_km_milje_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+
+
+    <string name="pref_title_jedinica">Jedinica</string>
+    <string-array name="pref_litra_galon_titles">
+        <item>Litra (l)</item>
+        <item>Galon US (Gal)</item>
+        <item>Galon Imperial (Gal)</item>
+        <item>kwh</item>
+        <item>m3</item>
+    </string-array>
+    <string-array name="pref_litra_galon_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="pref_obujam_masa_titles">
+        <item>kg</item>
+        <item>m^3</item>
+        <item>GGE</item>
+    </string-array>
+    <string-array name="pref_obujam_masa_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+
+
+
+    <string name="pref_title_potrosnja_goriva">Potrošnja goriva</string>
+    <string-array name="pref_potrosnja_goriva_titles">
+        <item>km/litra</item>
+        <item>km/galon US</item>
+        <item>km/galon Imperial</item>
+        <item>litra/100km</item>
+        <item>galon US/100km</item>
+        <item>galon Imperial/100km</item>
+        <item>milja/litra</item>
+        <item>milja/galon</item>
+        <item>milja/galon Imperial</item>
+        <item>litra/100Mi</item>
+        <item>galon US/100Mi</item>
+        <item>galon Imperial/100Mi</item>
+
+    </string-array>
+    <string-array name="pref_potrosnja_goriva_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+
+
+
+    <string name="pref_title_formati_datum">Formati formatted_date</string>
+    <string-array name="pref_formati_datum_titles">
+        <item>17/11/1987</item>
+        <item>17-11-1987</item>
+        <item>1987/11/17</item>
+        <item>1987-11-17</item>
+        <item>17 Ožu 1987</item>
+    </string-array>
+    <string-array name="pref_formati_datum_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
+
+    <string name="pref_title_formati_vrijeme">Formati vrijeme</string>
+    <string-array name="pref_formati_vrijeme_titles">
+        <item>15:20:30</item>
+        <item>03:20:30</item>
+
+    </string-array>
+    <string-array name="pref_formati_vrijeme_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="pref_title_formati_valuta">Formati valuta</string>
+    <string-array name="pref_formati_valuta_titles">
+        <item>EUR - euro</item>
+        <item>USD - američki dolar</item>
+        <item>GBP - britanska funta</item>
+        <item>HRK - hrvatska kuna</item>
+    </string-array>
+    <string-array name="pref_formati_valuta_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Kraj mojega -->
+
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings" translatable="false">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications" translatable="false">Notifications</string>
+
+    <string name="pref_title_new_message_notifications" translatable="false">New message notifications</string>
+
+    <string name="pref_title_ringtone" translatable="false">Ringtone</string>
+    <string name="pref_ringtone_silent" translatable="false">Silent</string>
+
+    <string name="pref_title_vibrate" translatable="false">Vibrate</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="help_titile">Odaberi jednu od opcija za pomoć u nevolji</string>
+    <string name="help_button1_title">Zovi pomoć</string>
+    <string name="help_button2_title">PRONAĐI NA KARTI</string>
+    <string name="line_chart_gas_titile">Grafikon kretanja cijene goriva u odabranom razdoblju</string>
+    <string name="line_chart_other_title">Grafikon kretanja troškova u odabranom razdoblju</string>
+    <string name="line2_chart_gas_title">Grafikon kretanja točenja u odabranom razdoblju</string>
+    <string name="line_chart_opcenito_title">Grafikon kretanja troškova u odabranom razdoblju</string>
+    <string name="line_chart_servise_titile">Grafikon kretanja troškova u odabranom razdoblju</string>
+    <string name="button_benzinske_postaje_tiitle">Benzinske postaje</string>
+    <string name="button_servisi_title">Servisi</string>
+    <string name="pie2chart_title">Grafikon udjela benzinskih postaja</string>
+    <string name="pie4_chart_title">Grafikon udjela razloga</string>
+    <string name="pie_chart_other_title">Grafikon udjela troškova u odabranom razdoblju</string>
+    <string name="pie_chart_opcenito_title">Grafikon udjela po vrsti troška u odabranom razdoblju</string>
+    <string name="pie_chart_servise_title">Grafikon udjela troškova u odabranom razdoblju</string>
+    <string name="ponovi_lozinku_title">Ponovi lozinku</string>
+    <string name="od_datum">Od:</string>
+    <string name="do_datum">Do:</string>
+    <string name="translate_button_title" translatable="false">Translate</string>
+    <string name="gas_distance_hint">stanje prijeđene udaljenosti</string>
+    <string name="last_distance">zadnja</string>
+    <string name="tocenje_cijena_hint">cijena</string>
+    <string name="tocenje_ukupni_trosak_hint">uk. trošak</string>
+    <string name="tocenje_uzeto_litara_hint">uzeto litara</string>
+    <string name="iznos">Iznos</string>
+    <string name="notes_title">Bilješke</string>
+    <string name="tip_unutar_marke_vozila">Tip unutar marke vozila</string>
+    <string name="naziv_vozila">Naziv vozila</string>
+    <string name="kapacitet_spremnika">Kapacitet spremnika</string>
+    <string name="registracija">Registracija</string>
+    <string name="broj_sasije">Broj šasije</string>
+    <string name="godina">Godina</string>
+    <string name="vrsta_usluge_title">SERVIS</string>
+    <string name="km">Razdaljina:</string>
+    <string name="cijena">Cijena:</string>
+    <string name="novo_ime_troska_title">Novo ime troška</string>
+    <string name="novo_ime_servisa_title">Novo ime servisa</string>
+    <string name="ime_obrtnika">Ime obrtnika</string>
+    <string name="ime_proizvozvodaca">Ime proizvođača</string>
+    <string name="date_time_other_detail_title">Datum/Vrijeme ostalog troska</string>
+    <string name="stanje_kilometara_km">Stanje kilometara</string>
+    <string name="ukupni_trosak">Ukupni trošak</string>
+    <string name="naziv_obavitelja_usuluge_title">Naziv obavitelja usuluge</string>
+    <string name="detalji_troskova_title">Detalji troškova</string>
+    <string name="datum_vrijeme_servisa">Datum/Vrijeme servisa</string>
+    <string name="naziv_obrtnika">Naziv obrtnika</string>
+    <string name="troskovi">Troškovi:</string>
+    <string name="ukupno">Ukupno:</string>
+    <string name="dnevno">Dnevno:</string>
+    <string name="grafikoni">Grafikoni:</string>
+    <string name="gorivo">Gorivo:</string>
+    <string name="potroseno">potrošeno</string>
+    <string name="cijena_nova">cijena</string>
+    <string name="proizvodac">Proizvođač</string>
+    <string name="tip">Tip</string>
+    <string name="br_sasije">br. Šasije</string>
+    <string name="godina_proizvodnje">Godina proizvodnje</string>
+    <string name="spremnik">Spremnik</string>
+    <string name="datum_vrijeme_history">Datum/Vrijeme:</string>
+    <string name="potvrda">Potvrdi</string>
+    <string name="delete_question">Želiš li izbrisati?</string>
+    <string name="potvrdno">Da</string>
+    <string name="negativno">Ne</string>
+    <string name="sadrzaj_obrisan_poruka">Sadržaj izbrisan</string>
+    <string name="poruka_greske">Doslo je do greske</string>
+    <string name="poruka_greske_dohvata">Došlo je do greške s dohvatom podataka</string>
+    <string name="nova_benzinska_title">Nova benzinska</string>
+    <string name="novo_tocenje_title">Novo tocenje</string>
+    <string name="novi_naziv_title">Novi naziv</string>
+    <string name="podsjetnik_title">Podsjetnik</string>
+    <string name="poruka_pogreske_unosa_u_bazu">Ne možete unositi naziv koji već imate u bazi!!!</string>
+    <string name="poruka_upozorenja_praznog_unosa">Ne možete unositi prazno polje!!!</string>
+    <string name="novi_trosak_title">Novi trošak</string>
+    <string name="novi_servis">Novi servis</string>
+    <string name="novi_obrtnik_title">Novi obrtnik</string>
+    <string name="novi_proizvodac_title">Novi proizvođač</string>
+    <string name="novi_ostali_trosak_title">Novi ostali trosak</string>
+    <string name="novi_razlog_title">Novi razlog</string>
+    <string name="dopustenje_memorija_poruka">Treba ti dopuštenje za pristup lokalnoj memoriji</string>
+    <string name="odustani">Odustani</string>
+    <string name="izvjestaj_pdf_title">Izvještaj o provedenim servisima na dan/sat:</string>
+    <string name="broj_servisa_title">Broj servisa</string>
+    <string name="datum_servisa_title">Datum servisa</string>
+    <string name="vrijeme_servisa_title">Vrijeme servisa</string>
+    <string name="obavljeno_kod_title">Obavljeno kod</string>
+    <string name="na_km">Na km</string>
+    <string name="naziv_servisa">Naziv servisa</string>
+    <string name="servis">Servis</string>
+    <string name="potpis">Potpis:</string>
+    <string name="preglednik_pdf_upozorenje">Morate skinuti neki PDF preglednik</string>
+    <string name="napravljeno_ukupno">"Napravljeno je ukupno  "</string>
+    <string name="potroseno_je">"Potrošeno je "</string>
+    <string name="ser">" servisa."</string>
+    <string name="sveukupno">Sveukupno =</string>
+    <string name="_dana">" dana"</string>
+    <string name="_usluga_u">"usluga u "</string>
+    <string name="po_">Po %1$s</string>
+    <string name="odaberite_grafikon">Odaberite grafikon</string>
+    <string name="grafikon_kretanja_troskova">Grafikon kretanja troškova</string>
+    <string name="Grafikon_kretanja_cijen_goriva">Grafikon kretanja cijene goriva</string>
+    <string name="grafikon_udio_benzinske">Grafikon udjela benzinske</string>
+    <string name="grafikon_udjela_razloga">Grafikon udjela razloga</string>
+    <string name="grafikon_udjela_troskova">Grafikon udjela troškova</string>
+    <string name="potrosnja">potrošnja/</string>
+    <string name="potrosnja_100">potrošnja/100</string>
+    <string name="punjenja_u">punjenja u</string>
+    <string name="tocenja_u">" točenja u "</string>
+    <string name="servisa_u">" servisa u "</string>
+    <string name="ostalih_troskova_u">" ostalih troškova u "</string>
+    <string name="_tocenja">" tocenja."</string>
+    <string name="tocenje_">Tocenje</string>
+    <string name="naziv_benzinske">Naziv benzinske</string>
+    <string name="razlog">Razlog</string>
+    <string name="vrijeme_tocenja">Vrijeme tocenja</string>
+    <string name="datum_tocenja">Datum tocenja</string>
+    <string name="broj_tocenja">Broj tocenja</string>
+    <string name="izvjestaj_punjenja">Izvještaj o punjenjima/tocenjima goriva na dan/sat:</string>
+    <string name="zadnja_">zadnja</string>
+    <string name="zapis_azuriran">Zapis o ostalom trosku je uspiješno ažuriran</string>
+    <string name="dodan_zapis_ostali">Dodan je novi zapis o ostalom trosku!!!</string>
+    <string name="tocenje_azurirano">Točenje je uspiješno ažurirano</string>
+    <string name="dodano_tocenje">Dodano je novo tocenje!!!</string>
+    <string name="s">Servisi</string>
+    <string name="o_t">Ostali Troskovi</string>
+    <string name="stvori_uredi_podsjetnik">Stvori/uredi podjetnik</string>
+    <string name="potvrdi">Potvrdi</string>
+    <string name="da_li_zelite_spremiti">Da li želite spremiti?</string>
+    <string name="servis_azuriran">Zapis o servisu je uspiješno ažuriran</string>
+    <string name="prazno_oprez">Ne možete ostaviti praznu listu troškova ili udaljenost</string>
+    <string name="dodan_servis">Dodan je novi zapis o servisu!!!</string>
+    <string name="vozilo_dodano">Dodano je novo vozilo!!!</string>
+    <string name="prazni_elementi">Ne možete ostaviti prazne naziv, godinu ili kapacitet spremnika</string>
+    <string name="vozilo_azurirano">Zapis o vozilu je uspiješno ažuriran</string>
+    <string name="nema_klijenta">Nije instaliran email klijent</string>
+    <string name="pomoc">Pomoć</string>
+    <string name="moja_mail_adresa" translatable="false">ivankovac225@gmail.com</string>
+    <string name="trenutna_pozicija" translatable="false">Trenutna pozicija</string>
+    <string name="detalji_vozila">Detalji vozila</string>
+    <string name="kretanje_tocenja">Kretanje točenja</string>
+    <string name="grafikon_raspodijele_troskova">Grafikon raspodijele troškova</string>
+    <string name="kretanje_troskova">Kretanje troškova</string>
+    <string name="grafikon_kretanja_tocenja">Grafikon kretanja točenja</string>
+    <string name="naziv_razlog">Naziv razloga</string>
+    <string name="grafikon_razloga">Grafikon razloga</string>
+    <string name="naziv_ostalog_troska">Naziv ostalog troska</string>
+    <string name="grafikon_udjela_opcenito">Grafikon udjela opcenito</string>
+    <string name="naziv_troska">Naziv troška</string>
+    <string name="postavke">Postavke</string>
+    <string name="prijevod">Prijevod</string>
+    <string name="poruka_poslana">Poruka poslana</string>
+    <string name="odaberite_jezik">Odaberite jezik</string>
+    <string name="logInerror_msg">Molimo Vas pravilno unesite email i lozinku!</string>
+    <string name="provjera_login">Provjera...</string>
+    <string name="kor_podaci_error">Unijeli ste neispravne korisničke podatke, pokušajte ponovno!</string>
+    <string name="prazna_polja_err">Molimo unesite prazna polja</string>
+    <string name="loz_err">Lozinke se ne podudaraju</string>
+    <string name="reg_korisnika">Registracija korisnika ...</string>
+    <string name="korisnik_stvoren">Korisnik je uspješno stvoren, pokušaj se ulogirati!</string>
+    <string name="zabrana_pristupa">Za pristup morate izraditi korisnički račun!</string>
+    <string name="odjava">Odjava</string>
+    <string name="odjava_pitanje">Da li se stvarno želite odjaviti?</string>
+    <string name="racun_izrada">Izradi račun</string>
+    <string name="no_logIn" translatable="false">Trenutno niste prijavljeni!</string>
+    <string name="jezik_hr">Hrvatski</string>
+    <string name="jezik_en">Engleski</string>
+    <string name="opcenito_tab">Općenito</string>
+    <string name="err_empty_toc">Ne možete ostaviti praznu udaljenost, cijenu, uzeto litara ili ukupni trošak</string>
+    <string name="km_unos_err">Unos udaljenosti  i datuma se ne podudaraju!</string>
+    <string name="time_reminder" translatable="false">Vrijeme</string>
+    <string name="date_reminder" translatable="false">Datum</string>
+    <string name="repeat_remaider">Broj ponavljanja</string>
+    <string name="repeat_none">Nema ponavljanja</string>
+    <string name="repeat_hourly">Svaki sat</string>
+    <string name="repeat_daily">Dnevno</string>
+    <string name="repeat_weekly">Tjedno</string>
+    <string name="repeat_mjesecno">Mjesečno</string>
+    <string name="repeat_yearly">Godišnje</string>
+    <string name="po_jed_udaljenosti">Po jed. udaljenosti:</string>
+    <string name="other_exp_pdf">" ostalih troškova."</string>
+    <string name="ot_pdf">Ostali trošak</string>
+    <string name="naziv_t">Naziv troška</string>
+    <string name="vrijeme_t_pdf">Vrijeme troška</string>
+    <string name="datum_troska_pdf">Datum troška</string>
+    <string name="broj_troska_pdf">Broj troška</string>
+    <string name="izvjestaj_ot_pdf">Izvještaj o ostalim troškovima na dan/sat:</string>
+    <string name="mem_err_pdf">Zabranjeno pisanje po memoriji</string>
+    <string name="pristup_memoriji" translatable="false">Treba ti dopuštenje za pristup lokalnoj memoriji</string>
+    <string name="grafikon_prazan">Još nema podataka za analizu/prikaz!</string>
+    <string name="datum_vrijeme_toc">Datum/Vrijeme točenja</string>
+    <string name="uzeto__m3">Uzeto m3</string>
+    <string name="Uzeto_kwh">Uzeto kwh</string>
+</resources>
